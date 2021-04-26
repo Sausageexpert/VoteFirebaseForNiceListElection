@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {View, StyleSheet, TouchableOpacity, Alert, TextInput, Image, Text} from 'react-native';
 import db from '../config';
+import firebase from 'firebase';
 
 export default class Authentication extends React.Component{
     constructor(){
